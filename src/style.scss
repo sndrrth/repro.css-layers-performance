@@ -1,0 +1,7 @@
+@use 'sass:meta';
+
+@layer bs;
+
+@layer bs {
+  @include meta.load-css("bootstrap/scss/bootstrap");
+}
